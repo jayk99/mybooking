@@ -1,0 +1,167 @@
+
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+  }
+  
+  .my-bookings-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-tab {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .profile-icon {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  .profile-menu {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  .profile-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profile-menu li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .menu-icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .booking-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .booking-image {
+    flex: 1;
+  }
+  
+  .booking-details {
+    flex: 3;
+  }
+  
+  .booking-price {
+    flex: 1;
+    text-align: right;
+    font-size: 20px;
+    color: #007BFF;
+    font-weight: bold;
+  }
+ 
+
+.cancel-booking-button {
+    background-color: #FF0000;
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  
+    
+    &:hover {
+      background-color: orange;
+    }
+  }
+
+.booking-price {
+    flex: 1;
+    text-align: right;
+    font-size: 20px;
+    color: #007BFF;
+    font-weight: bold;
+    white-space: nowrap; 
+  }
+
+.profile-menu li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #333;
+    transition: background-color 0.3s ease; 
+  
+   
+    &:hover {
+      background-color: #f0f0f0; 
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
